@@ -1,0 +1,353 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (min-width: 900px)
+{
+    .tasklist{
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .plus{
+        color: tomato;
+        font-size: 24px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .paris{
+        color: tomato;
+        text-decoration: none;
+    }
+
+
+    h2{
+        font-size: 21px;
+    }
+    hr{
+        width: 201px;
+        position: relative;
+        right: 27px;
+    }
+    label{
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: -30px;
+    }
+    .crossed{
+        font-size: 20px;
+        color: tomato;
+        text-decoration: line-through;
+    }
+    .box{
+        position: relative;
+        right: 110px;
+    }
+    .box2{
+        position: relative;
+        top: 10px;
+        right: 85px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: 400px;
+        margin-top: 150px;
+    }
+
+    .container{
+        color: tomato;
+        padding: 25px;
+        font-size: 20px;
+        border: 2px solid tomato;
+        width: 150px;
+        height: 250px;
+        border-radius: 15px;
+        box-shadow: 8px 8px 10px grey, 5px 8px 10px red;
+    }
+    #Blur{
+        filter: blur(7px);
+        z-index: 2;
+    }
+
+    .addlist{
+        color: tomato;
+        font-weight: bold;
+        border: 2px solid tomato;
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+    }
+
+    .todo{
+        z-index: 1;
+        position: absolute;
+        top: 250px;
+        left: 580px;
+        background-color: white;
+        font-weight: normal;
+        box-shadow: 8px 8px 10px grey, 5px 8px 10px red;
+    }
+
+    input{
+        width: 200px;
+        height: 25px;
+        border-radius: 7px;
+        border: 1.5px solid tomato
+    }
+    button{
+        color: white;
+        border: none;
+        width: 60px; 
+        height: 30px;
+        background-color: tomato;  
+        border-radius: 20px; 
+    }
+
+
+    .trip{
+        display: inline-block;
+    }
+    .withIcon{
+        display: inline-block;
+    }
+
+    .paris2{
+        color: black;
+        font-size: 40px;
+        padding-right: 3px;
+        margin: 10px 0px 0px 0px;
+        position: relative;
+        right: 40px;
+    }
+
+    .parisBox{
+        color: tomato;
+        font-size: 30px;
+        padding: 20px 0px 20px 0px;
+        position: relative;
+        left: 595px;
+        text-align: center;
+        align-content: center;
+        height: 320px;
+        width: 250px;
+        border: 2px solid tomato;
+        border-radius: 15px;
+        box-shadow: 8px 8px 10px grey, 5px 8px 10px red;
+    }
+    .trip{
+        color: tomato;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .withIcon{
+        display: flex;
+        position: relative;
+        left: 590px;
+        bottom: 40px;
+    } 
+
+    .icon{
+        position: relative;
+        top: 130px;
+        left: 75px;
+    }
+    #material-icon{
+        position: relative;
+        top: 60px;
+        left: 100px;
+    }
+    .line2{
+        width: 250px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 350px)
+{
+    .tasklist{
+        font-size: 40px;
+        font-weight: bold;  
+        position: relative;
+        top: 80px;
+    }
+
+    .paris{
+        color: tomato;
+        text-decoration: none;
+    }
+
+    .grid-container{
+        display: grid;
+        gap: 30px;
+        margin: 0px 10px 0px;
+    }
+
+
+    .material-icons{
+        color: tomato;
+        position: absolute;
+        top: 95px;
+        right: 130px;
+        padding-top: 25px;
+    }  
+    .plus1{
+        display: none;
+    }
+
+    .disNone{
+        display: none;
+    }
+
+    .container{
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: left;
+        color: tomato;
+        padding: 10px;
+        border: 1.5px solid tomato; 
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px grey, 5px 8px 10px red;
+    }
+    h2{
+        color: black;
+        font-weight: bold;
+    }
+    #Blur{
+        filter: blur(7px);
+        z-index: 2;
+    }
+    .addList{
+        color: tomato;
+        font-weight: bold;
+        border: 2px solid tomato;
+        border-radius: 15px;
+        width: 300px;
+        height: 150px; 
+        text-align: center;
+        background-color: white;
+        box-shadow: 2px 2px 5px grey;
+        box-sizing: border-box;
+    }
+    .todo{
+        z-index: 2;
+        font-weight: bold;
+        color: tomato;
+        text-align: center;
+        font-size: 17px;
+        width: 320px;
+        height: 150px;
+        padding: 7px;
+        border: 2px solid tomato;
+        border-radius: 15px;
+        position: absolute;
+        margin: 50px;
+        top: 200px;
+        background-color: white;
+        box-shadow: 8px 8px 10px grey, 5px 8px 10px red;
+    }
+    
+    input{
+        width: 200px;
+        height: 25px;
+        border-radius: 7px;
+        border: 1.5px solid tomato
+    }
+    button{
+        color: white;
+        border: none;
+        width: 60px; 
+        height: 30px;
+        background-color: tomato;  
+        border-radius: 20px; 
+    }
+    .trip{
+        display: inline-block;
+    }
+    .withIcon{
+        display: inline-block;
+    } 
+    .line{
+        display: none;
+    }
+    .paris2{
+        color: black;
+        font-size: 40px;
+        position: relative;
+        left: 30px;
+    }
+    .parisBox{
+        padding: 20px;
+        font-size: 25px;
+        position: absolute;
+        left: 40px;
+        text-align: center;
+        align-content: center;
+        height: 330px;
+        width: 240px;
+        border: 2px solid tomato;
+        border-radius: 15px;
+        box-shadow: 8px 8px 10px grey, 5px 8px 10px red;
+    }
+
+
+    .trip{
+        font-size: 25px;
+        display: flex;
+        align-content: left;
+        justify-content: left; 
+        position: relative;
+        left: 35px;
+    }
+
+    .withIcon{
+        display: flex;
+        align-content: left;
+        justify-content: left;
+        position: relative;
+        right: 150px;
+        bottom: 130px;
+    }
+
+    .icon{
+        position: relative;
+        bottom: 20px;
+        left: 230px;
+    }
+    .crossed{
+        color: tomato;
+        text-decoration: line-through;
+    }
+    .box2{
+        position: relative;
+        top: 5px;
+        right: 100px;
+    }
+    label{
+        position: relative;
+        bottom: 30px;
+    }
+
+    .to{
+        font-size: 32px;
+    }
+    .line2{
+        width: 275px;
+        position: relative;
+        left: -20px;
+    }
+}
